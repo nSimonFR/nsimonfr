@@ -1,0 +1,66 @@
+body {
+	overflow: hidden;
+	margin: 0;
+	background: #202020;
+	color: white;
+}
+
+header {
+	position:absolute;
+	font-family: "Poiret One", Arial, sans-serif;
+
+	top:40%;
+	left:50%;
+
+	padding:15px;
+
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+
+	text-align: center;
+}
+
+.content {
+	background: #202020;
+}
+
+h1 {
+	color: #666666;
+	font-size: 36px;
+	font-family: "Poiret One", Arial, sans-serif;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+	font-size: 23px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #4040FF;
+}
+
+a:active {
+	color: #4040FF;
+}
+
+.fa {
+	font: 14px/1 FontAwesome;
+}
