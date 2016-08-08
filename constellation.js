@@ -27,7 +27,7 @@ if (!window.requestAnimationFrame) {
 					width: 3
 				},
 				line: {
-					color: '#0000FF',
+					color: '#5050FF',
 					width: 0.2
 				},
 				position: {

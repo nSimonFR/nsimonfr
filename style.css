@@ -5,7 +5,7 @@ body {
 	color: white;
 }
 
-header {
+.page {
 	position:absolute;
 	font-family: "Poiret One", Arial, sans-serif;
 
@@ -44,6 +44,14 @@ a {
 	text-decoration: none;
 }
 
+img {
+	max-width: 350px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #5050FF;
+	border-radius: 200px;
+}
+
 a:link {
 	color: white;
 }
@@ -53,29 +61,16 @@ a:visited {
 }
 
 a:hover {
-	color: #4040FF;
+	color: #5050FF;
 }
 
 a:active {
-	color: #4040FF;
+	color: #5050FF;
 }
 
 .fa {
-	font: 14px/1 FontAwesome;
+   font-size: 44px;
 }
 
 footer {
-	position:absolute;
-	font-family: "Poiret One", Arial, sans-serif;
-
-	top:40%;
-	left:50%;
-
-	padding:15px;
-
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-webkit-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
-
-	text-align: center;
 }
