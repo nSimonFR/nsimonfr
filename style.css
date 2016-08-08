@@ -9,7 +9,7 @@ body {
 	position:absolute;
 	font-family: "Poiret One", Arial, sans-serif;
 
-	top:40%;
+	top:45%;
 	left:50%;
 
 	padding:15px;
@@ -45,9 +45,9 @@ a {
 }
 
 img {
-	max-width: 350px;
+	max-width: 300px;
 	border-style: solid;
-	border-width: 5px;
+	border-width: 3px;
 	border-color: #5050FF;
 	border-radius: 200px;
 }
@@ -69,8 +69,11 @@ a:active {
 }
 
 .fa {
-   font-size: 44px;
+	font-size: 44px;
+	margin: 5px;
 }
 
-footer {
+li {
+	margin: 10px;
 }
+
