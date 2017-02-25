@@ -3,7 +3,7 @@
  * @version 1.2.2
  * @author Acau? Montiel <contato@acauamontiel.com.br>
  * @license http://acaua.mit-license.org/
- * Modified by Neavend <nicolas1.simon@epita.fr>
+ * @modified by Neavend <nicolas1.simon@epita.fr>
  */
 
 if (!window.requestAnimationFrame) {
@@ -36,10 +36,10 @@ if (!window.requestAnimationFrame) {
 				},
 				width: window.innerWidth,
 				height: window.innerHeight,
-				velocity: 0.02,
-				length: 200,
-				distance: 70,
-				radius: 120,
+				velocity: 0.04,
+				length: (window.innerWidth + window.innerHeight) / 10,
+				distance: (window.innerWidth + window.innerHeight) / 40,
+				radius: 200,
 				stars: []
 			},
 			config = $.extend(true, {}, defaults, options);
@@ -48,8 +48,8 @@ if (!window.requestAnimationFrame) {
 			this.x = Math.random() * canvas.width;
 			this.y = Math.random() * canvas.height;
 
-			this.vx = (config.velocity - (Math.random() * 0.15));
-			this.vy = (config.velocity - (Math.random() * 0.15));
+			this.vx = (config.velocity - (Math.random() * 0.05));
+			this.vy = (config.velocity - (Math.random() * 0.05));
 
 			this.radius = Math.random() * config.star.width;
 		}
@@ -64,7 +64,6 @@ if (!window.requestAnimationFrame) {
 			animate: function(){
 				var i;
 				for (i = 0; i < config.length; i++) {
-
 					var star = config.stars[i];
 
 					if (star.y < 0 || star.y > canvas.height) {
@@ -126,7 +125,6 @@ if (!window.requestAnimationFrame) {
 			for (i = 0; i < length; i++) {
 				config.stars.push(new Star());
 				star = config.stars[i];
-
 				star.create();
 			}
 

@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css"></style>
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 	</head>
 
 	<body class="home">
@@ -14,28 +15,41 @@
 			<nav>
 				<ul>
 					<li>
-						<a class="page-scroll" href="#about"> About Me </a>
+						<a class="page-scroll" href="https://www.linkedin.com/in/nicolas1simon">About Me
+							<i class="fa fa-linkedin" style="font-size: 12px"></i>
+						</a>
 					</li>
 					<li>
-						<a class="page-scroll" href="#latest-post"> Projects </a>
+						<a class="page-scroll" href="https://www.linkedin.com/in/nicolas1simon#projects"> Projects
+							<i class="fa fa-linkedin" style="font-size: 12px"></i>
+						</a>
 					</li>
 				</ul>
 			</nav>
 			<footer>
-				<a href="https://www.linkedin.com/in/nicolas1simon" target="_blank">
-					<i class="fa fa-linkedin"></i>
+				<a href="Nicolas_SIMON_CV.pdf" target="_blank">CV
 				</a>
-				<a href="Nicolas_SIMON_CV.pdf" target="_blank">
-					<i class="fa  fa-file-text-o"></i>
-				</a>
-				<a href="http://github.com/neavend" target="_blank">
+				<a href="http://github.com/neavend" target="_blank" style="margin-right: 8px; margin-left: 5px">
 					<i class="fa fa-github"></i>
 				</a>
+				<a data-layout="scare" data-width="small" target="_blank" class="hopwork_button" data-id="57e172093ef877444d5dcbcb" href="https://www.hopwork.fr/profile/nicolassimon">Hire Me!</a>
 			</footer>
 		</div>
 		<canvas id="constellation"></canvas>
-		<script src="https://raw.githubusercontent.com/processing-js/processing-js/v1.4.8/processing.min.js"></script>
+
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-		<script type="text/javascript" src="constellation.js"></script>
+		<script type="text/javascript" src="background.js"></script>
+		<script type="text/javascript">
+			(function(d,id) {
+				if (d.getElementById(id)) return;
+				var s = d.createElement('script');
+				var c = d.getElementsByTagName('script')[0];
+				s.type = 'text/javascript';
+				s.async = true;
+				s.src = 'https://widgets.hopwork.com/1.0.0/js/sdk.min.js';
+				c.parentNode.insertBefore(s, c);
+			 })(document,'hopwork-sdkjs-btn');
+		</script>
+
 	<body>
 </html>
