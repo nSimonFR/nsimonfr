@@ -48,7 +48,7 @@ img {
 	max-width: 300px;
 	border-style: solid;
 	border-width: 3px;
-	border-color: #5050FF;
+	border-color: #AB47BC;
 	border-radius: 200px;
 }
 
@@ -61,11 +61,11 @@ a:visited {
 }
 
 a:hover {
-	color: #5050FF;
+	color: #AB47BC;
 }
 
 a:active {
-	color: #5050FF;
+	color: #AB47BC;
 }
 
 footer {
