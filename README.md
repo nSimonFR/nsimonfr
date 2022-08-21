@@ -9,5 +9,5 @@
 - ⭐ I star _a lot_ of repositories across github, as a way to bookmark them 😛
 - 📇 Here are my [LinkedIn](https://linkedin.com/in/nSimonFR), [Telegram](https://t.me/nsimon), [Twitter](https://twitter.com/nsimonfr), [Website](https://nsimon.fr) & [Mail](mailto://contact@nsimon.fr) if you want to reach out (I'm based in Paris)
 
-Also, here's [my repositories](https://github.com/nSimonFR?tab=repositories&type=source) and my [project organisation canvas](https://github.com/users/nSimonFR/projects/2).
+Also, here's [my website](Nicolas_SIMON_CV.pdf) and my [CV (🇫🇷)](https://nsimon.fr/Nicolas_SIMON_CV).
 Have a wonderful day !
