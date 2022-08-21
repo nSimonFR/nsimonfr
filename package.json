@@ -1,0 +1,21 @@
+{
+  "name": "nsimonfr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "nSimonFR",
+  "license": "MIT",
+  "dependencies": {
+    "wasm-boids": "1.0.0",
+    "pixi.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0",
+    "copy-webpack-plugin": "^5.0.0"
+  }
+}
