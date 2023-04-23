@@ -1,5 +1,7 @@
 [![nSimonFR Page Views](http://hits.dwyl.com/nSimonFR/nSimonFR.svg)](https://github.com/nSimonFR)
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=nsimonfr&theme=discord&rank=-C)](https://github.com/ryo-ma/github-profile-trophy)
+
 # 👋 Hello ! I'm Nicolas
 
 - 🚚 I currently work at [Trusk](https://trusk.com), a transportation and logistics startup _(B2B2C)_, trying to solve lastmile delivery with cool tech
