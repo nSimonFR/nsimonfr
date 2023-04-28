@@ -1,4 +1,5 @@
 [![nSimonFR Page Views](http://hits.dwyl.com/nSimonFR/nSimonFR.svg)](https://github.com/nSimonFR)
+[![wakatime](https://wakatime.com/badge/user/492f83d0-d65f-4ba4-a018-6842bcf84d33.svg)](https://wakatime.com/@492f83d0-d65f-4ba4-a018-6842bcf84d33)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=nsimonfr&theme=discord&rank=-C)](https://github.com/ryo-ma/github-profile-trophy)
 
