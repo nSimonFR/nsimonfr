@@ -1,4 +1,6 @@
 body {
+	font-family: "Poiret One", Arial, sans-serif;
+	text-align: center;
 	overflow: hidden;
 	margin: 0;
 	background: black;
@@ -7,7 +9,6 @@ body {
 
 .page {
 	position:absolute;
-	font-family: "Poiret One", Arial, sans-serif;
 
 	top:45%;
 	left:50%;
@@ -18,7 +19,6 @@ body {
 	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 
-	text-align: center;
 }
 
 .content {
@@ -45,11 +45,11 @@ a {
 }
 
 img {
-	max-width: 300px;
+	max-width: 40vh;
 	border-style: solid;
-	border-width: 3px;
+	border-width: 5px;
 	border-color: #AB47BC;
-	border-radius: 200px;
+	border-radius: 45vh;
 }
 
 a:link {
@@ -69,7 +69,11 @@ a:active {
 }
 
 footer {
-	font-size: 22px;
+	margin-top:28px;
+	position:fixed;
+	bottom:0px;
+	height:28px;
+	width:100%;
 }
 
 li {
