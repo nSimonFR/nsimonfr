@@ -1,13 +1,14 @@
 {
   "name": "nsimonfr",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
+  "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server"
   },
   "author": "nSimonFR",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "dependencies": {
     "wasm-boids": "1.0.0",
     "pixi.js": "^7.2.4"
