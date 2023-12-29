@@ -2,8 +2,8 @@
  * Simple boids in canvas example using PixiJS
  * => https://pixijs.download/
  */
-import { Universe, Rules } from "wasm-boids";
 import * as PIXI from "pixi.js";
+import { Rules, Universe } from "wasm-boids";
 
 const rand = (max) => Math.floor(Math.random() * max);
 const colorize = (color) => {
