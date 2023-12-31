@@ -34,8 +34,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build
-        run: npm run website:vite build
+      - name: Build CV
+        run: npm run cv:build
+
+      - name: Copy CV
+        run: cp cv/dist/*.pdf nsimon.fr/public/
+
+      - name: Build Website
+        run: npm run website:build
 
       - name: Setup Pages
         uses: actions/configure-pages@v1

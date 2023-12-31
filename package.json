@@ -7,7 +7,9 @@
     "cv"
   ],
   "scripts": {
-    "website:vite": "cd nsimon.fr && vite"
+    "cv:build": "cd cv && npm run build",
+    "website:vite": "cd nsimon.fr && vite",
+    "website:build": "cd nsimon.fr && npm run build"
   },
   "author": "nSimonFR",
   "license": "UNLICENSED"
