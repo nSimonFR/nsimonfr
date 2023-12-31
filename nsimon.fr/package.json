@@ -1,0 +1,22 @@
+{
+  "name": "nsimonfr-website",
+  "version": "1.0.0",
+  "author": "nSimonFR",
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi.js": "^7.2.4",
+    "wasm-boids": "1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8",
+    "vite-plugin-top-level-await": "^1.4.1",
+    "vite-plugin-wasm": "^3.3.0"
+  }
+}

@@ -5,7 +5,7 @@ export default {
   root: "./src",
   publicDir: "../public",
   build: {
-    outDir: "../nsimon.fr",
+    outDir: "../dist",
   },
   plugins: [wasm(), topLevelAwait()],
 };
