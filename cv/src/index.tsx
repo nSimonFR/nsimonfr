@@ -1,8 +1,7 @@
 import { Document, Page, Text, View } from "@react-pdf/renderer";
-import fs from "fs";
 import React from "react";
 import { createTw } from "react-pdf-tailwind";
-import parser, { parsedMarkdown } from "./parser";
+import { parse, type parsedMarkdown } from "./parser";
 
 const tw = createTw({
   theme: {
@@ -39,9 +38,8 @@ const PDF = (markdown: parsedMarkdown) => (
   </Document>
 );
 
-const generatePDFFromMarkdown = (path: string) => {
-  const file = fs.readFileSync(path);
-  const markdown = parser(file.toString());
+export const generatePDFFromMarkdown = (content: string) => {
+  const markdown = parse(content);
   return PDF(markdown);
 };
 

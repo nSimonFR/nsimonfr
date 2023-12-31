@@ -5,8 +5,10 @@ import generatePDFFromMarkdown from './src';
 const outFolder = `${__dirname}/dist`;
 if (!fs.existsSync(outFolder)) fs.mkdirSync(outFolder);
 
-const french = generatePDFFromMarkdown("./markdown/FRENCH.md");
-ReactPDF.render(french, `${outFolder}/french.pdf`);
+const frenchMD = fs.readFileSync("./markdown/FRENCH.md");
+const frenchPDF = generatePDFFromMarkdown(frenchMD.toString());
+ReactPDF.render(frenchPDF, `${outFolder}/french.pdf`);
 
-const english = generatePDFFromMarkdown("./markdown/ENGLISH.md");
-ReactPDF.render(english, `${outFolder}/english.pdf`);
+const englishMD = fs.readFileSync("./markdown/ENGLISH.md");
+const englishPDF = generatePDFFromMarkdown(englishMD.toString());
+ReactPDF.render(englishPDF, `${outFolder}/english.pdf`);
