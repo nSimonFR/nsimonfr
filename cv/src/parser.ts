@@ -19,12 +19,13 @@ const getParentHeading = (headings: any, item: marked.Tokens.Heading, result: an
     parent: parent
   };
 }
+
+export type parsedMarkdown = { [key: string]: parsedMarkdown } & { content?: string };
+
 const parse = (markdown: string) => {
   const tokens = marked.lexer(markdown);
 
-  type parsedType = { [key: string]: parsedType } & { content?: string };
-
-  let current: parsedType;
+  let current: parsedMarkdown;
   let headings: any = [];
   let output = tokens.reduce((result, item) => {
     if (!current) {
@@ -48,7 +49,7 @@ const parse = (markdown: string) => {
       current.content = current.content ? current.content + item.raw : item.raw;
     }
     return result;
-  }, {} as parsedType);
+  }, {} as parsedMarkdown);
 
   return output;
 }
