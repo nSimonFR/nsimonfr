@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "nsimon.fr"
+    "nsimon.fr",
+    "cv"
   ],
   "scripts": {
     "website:vite": "cd nsimon.fr && vite"
