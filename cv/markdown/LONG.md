@@ -1,10 +1,23 @@
-# Nicolas SIMON - FR
+# Nicolas SIMON
 
-Développeur Fullstack Parisien.
+Développeur Fullstack Parisien
 
-Website: [nSimon.fr](http://nsimon.fr/)
+## Contact
 
-Langues: Français (Maternelle) / Anglais (Bilingue).
+[nSimon.fr](http://nsimon.fr/)
+[nsimon@pm.me](mailto:nsimon@pm.me)
+[github/nSimonFR](https://github.com/nSimonFR)
+[linkedin/nSimonFR](https://www.linkedin.com/in/nsimonfr/)
+
+## Langues
+
+Français (Maternelle)
+Anglais (Bilingue)
+
+## Infos
+
+Réside à Paris - 75011
+1996 - St-Renan (29)
 
 # Expérience Professionnelle
 
@@ -12,7 +25,7 @@ Langues: Français (Maternelle) / Anglais (Bilingue).
 
 Rejoint la startup française de livraison dernier kilomètre afin d’améliorer le développement de ses outils et services technologiques au sein du pôle R&D.
 
-### Team Lead Order Taking
+### Team Lead - Order Taking
 
 04/2022 - Auj. - [https://trusk.com](https://trusk.com/)
 
@@ -54,7 +67,7 @@ Stack & Process :
 - Datadog en outil d’analyse et surveillance cloud / production.
 - Google Cloud Platform (Cloud Functions / App Scripts), intégrations Zappier, Integromat, Onfleet.
 - Méthodologie agile, sprints plannings / reviews / retro (Gestion de projet via Zenhub, Github & Asana).
-- Accompagnement technique de nouveaux développeurs
+- Accompagnement technique de nouveaux développeurs.
 
 ## gaston.tel
 
@@ -62,7 +75,7 @@ Stack & Process :
 
 08/2018 - Auj. - [https://gaston.tel](https://gaston.tel/)
 
-Création et gérance d’une start-up B2B avec un autre co-fondateur, de la conception jusqu’à la commercialisation, dans le but de faire gagner du temps aux professionels via la retranscription de leurs messages vocaux.
+Création et gestion d’une start-up B2B avec un autre co-fondateur, de la conception jusqu’à la commercialisation, dans le but de faire gagner du temps aux professionels via la retranscription de leurs messages vocaux.
 
 Compétences :
 
@@ -94,15 +107,13 @@ Projets:
 - "Crawlers" en Node.JS ou Python et analyse de données.
 - Sites vitrines en HTML/CSS/Bootstrap ou WordPress.
 
-# Projets personnels
+# Formation & Hobbies
 
 ## Github
 
-[https://github.com/nSimonFR](https://github.com/nSimonFR)
+Mes projets, découvertes, explorations : [https://github.com/nSimonFR](https://github.com/nSimonFR)
 
-# Éducation
-
-## EPITA
+## Éducation - EPITA
 
 2015 - 2018 - École d’ingénierie en informatique.
 
@@ -113,6 +124,6 @@ Projets:
 - Développement d'une application / réseau social en C#
   - Rôle: Développeur backend, BDD et recherche
 
-## 42
+## Éducation - 42
 
 2015 - Piscine et premiers projets

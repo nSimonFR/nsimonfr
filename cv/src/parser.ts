@@ -1,4 +1,4 @@
-import { marked, Tokens } from 'marked';
+import { marked, Token, Tokens } from 'marked';
 
 const getParentHeading = (headings: any, item: Tokens.Heading, result: any) => {
   const index = item.depth - 1;
@@ -20,7 +20,7 @@ const getParentHeading = (headings: any, item: Tokens.Heading, result: any) => {
   };
 }
 
-export type parsedMarkdown = { [key: string]: parsedMarkdown } & { content?: string };
+export type parsedMarkdown = { [key: string]: parsedMarkdown } & { content?: Token[] };
 
 export const parse = (markdown: string) => {
   const tokens = marked.lexer(markdown);
@@ -46,7 +46,12 @@ export const parse = (markdown: string) => {
       }
     }
     else {
-      current.content = current.content ? current.content + item.raw : item.raw;
+      const value = item.tokens || [item.text || item.raw];
+      if (current.content) {
+        current.content = [...current.content, ...value];
+      } else {
+        current.content = value;
+      }
     }
     return result;
   }, {} as parsedMarkdown);

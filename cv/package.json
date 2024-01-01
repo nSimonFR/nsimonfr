@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@react-pdf/renderer": "^3.1.14",
+    "geist": "^1.2.0",
     "marked": "^11.1.1",
     "md-2-json": "^2.0.0",
     "react": "^18.2.0",
@@ -23,6 +24,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "react-dom": "^18.2.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
   }
 }
