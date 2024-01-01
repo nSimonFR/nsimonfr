@@ -13,19 +13,22 @@ import { createTw } from "react-pdf-tailwind";
 import { parse, type parsedMarkdown } from "./parser";
 import { Style } from "@react-pdf/types";
 
+const path = (src: string) =>
+  typeof window !== "undefined" ? src : `./public/${src}`;
+
 Font.register({
   family: "Geist",
   format: "truetype",
   fonts: [
     {
-      src: "/Geist-Regular.woff2",
+      src: path("Geist-Regular.woff2"),
     },
     {
-      src: "/Geist-Light.woff2",
+      src: path("Geist-Light.woff2"),
       fontStyle: "italic",
     },
     {
-      src: "/Geist-Bold.woff2",
+      src: path("Geist-Bold.woff2"),
       fontWeight: "bold",
     },
   ],
@@ -79,8 +82,8 @@ const ContentRender = ({
 
   return (
     <Text style={style}>
-      {markdown.content.map((c) => (
-        <TextRender content={c}></TextRender>
+      {markdown.content.map((c, i) => (
+        <TextRender key={i} content={c}></TextRender>
       ))}
     </Text>
   );
@@ -162,7 +165,7 @@ const PDF = (markdown: parsedMarkdown) => {
       >
         <View style={tw("m-4 mb-[20px] flex-row")} wrap>
           <View style={tw("m-2 grow basis-1/5 text-right text-xs")}>
-            <MyImage src="me.png" />
+            <MyImage src={path("me.png")} />
             <Section
               title={title}
               markdown={content as parsedMarkdown}
