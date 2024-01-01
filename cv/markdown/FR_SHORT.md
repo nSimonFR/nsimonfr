@@ -23,7 +23,7 @@ Né en 1996 (29)
 
 ## trusk.com
 
-Rejoint la startup française de livraison dernier kilomètre afin d’améliorer le développement de ses outils et services technologiques au sein du pôle R&D.
+Rejoint la startup française de livraison dernier kilomètre afin d’améliorer le développement de ses outils et services technologiques au sein du pôle R&D. [trusk.com](https://trusk.com/)
 
 ### Team Lead - Order Taking (04/2022 - Auj.)
 
@@ -45,6 +45,8 @@ Rejoint la startup française de livraison dernier kilomètre afin d’améliore
 - Méthodologie agile, sprints, accompagnement technique de nouveaux développeurs
 
 ## gaston.tel
+
+[gaston.tel](https://gaston.tel/)
 
 ### Co-fondateur (08/2018 - Auj.)
 

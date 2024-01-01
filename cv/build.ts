@@ -11,5 +11,6 @@ const generatePDF = (name: string) => {
   ReactPDF.render(frenchPDF, `${outFolder}/${name}.pdf`);
 };
 
-generatePDF("SHORT");
-generatePDF("LONG");
+generatePDF("FR_LONG");
+generatePDF("FR_SHORT");
+generatePDF("EN_SHORT");
