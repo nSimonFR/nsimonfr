@@ -46,6 +46,7 @@ export const parse = (markdown: string) => {
       }
     }
     else {
+      // @ts-ignore
       const value = item.tokens || [item.text || item.raw];
       if (current.content) {
         current.content = [...current.content, ...value];
